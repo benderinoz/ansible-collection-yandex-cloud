@@ -211,7 +211,7 @@ def _delete(module, service, instance_id, instance_labels):
 
     except Exception as e:
         module.fail_json(
-            msg=f"instance_id: {instance_id}, labels: {module.params['labels']} unknown error update labels %r. Error was: %s"
+            msg=f"unknown error update labels %r. Error was: %s"
             % (to_native(module.params["name"]), to_native(e)),
         )
 
