@@ -3,7 +3,7 @@ from __future__ import absolute_import, division, print_function
 __metaclass__ = type
 
 DOCUMENTATION = """
-  module: compute_snapshot
+  module: compute_labels
   version_added: 0.1.0
   author:
     - Maxim Zalysin <zalysin.m@gmail.com>
@@ -86,7 +86,7 @@ EXAMPLES = """
    labels:
      newlabel: newvalue
      anotherlabel: anothervalue
- register: compute_snapshot
+ register: compute_labels
 """
 
 RETURN = """
